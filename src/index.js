@@ -10,7 +10,7 @@ const app = new Koa()
 app.use(bodyParser({ urlencoded: true }))
 
 app.use(async (ctx) => {
-  if (ctx.method !== 'POST' || ctx.method !== 'PUT') return
+  if (!['POST', 'PUT'].includes(ctx.method)) return
 
   const {
     token,
