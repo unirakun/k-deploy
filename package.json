@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "docker build --rm . -t alakarte/k-deploy"
+    "build": "docker build --rm . -t unirakun/k-deploy"
   },
   "dependencies": {
     "isomorphic-git": "^0.19.9",
