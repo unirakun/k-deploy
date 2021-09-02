@@ -9,7 +9,7 @@
     "build": "docker build --rm . -t unirakun/k-deploy"
   },
   "dependencies": {
-    "isomorphic-git": "^0.19.9",
+    "isomorphic-git": "^1.8.2",
     "koa": "^2.5.1",
     "koa-body": "^4.0.4",
     "memfs": "^2.9.1"
